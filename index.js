@@ -10,7 +10,7 @@ app.use(express.json());
 
 // mongo db connect
 const uri =
-  "mongodb+srv://mangodbmh:G1g6WP0Lbf0lWAIA@cluster0.snlol.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+  "mongodb+srv://mangodbmh:<password>@cluster0.snlol.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
